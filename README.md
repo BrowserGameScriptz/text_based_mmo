@@ -1,5 +1,5 @@
 # textbrowserbasedmmo
-Text Browser-Based MMO is a project with with forum integration.
+Text Browser-Based MMO is a project with forum integration.
 
 TBBM (Text Browser-Based MMO) is my personal bachelor's degree project which aims to integrate activity on forum, such as posting, liking, helping others etc., as a reward for possible energy (or some kind of resource) points in-game to promote community interaction, which can also be not related to the game itself.
 
