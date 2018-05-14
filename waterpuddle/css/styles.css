@@ -1,0 +1,530 @@
+@media screen and (max-width: 1024px) {
+    .navbar{
+        min-height:50px;
+    }
+     .navbar-brand{
+        top:-10px;
+        
+    }
+   
+    .linx li{
+        text-align:center;
+    }
+    .topRowLeftCol{
+       margin-top:0px;
+    }
+    
+    .topRowMidCol{
+       margin-top:0px;
+    }
+    
+    .topRowRightCol{
+        
+    }
+}
+
+@media screen and (max-width:760px){
+    .navbar{
+        background-color:rgba(1,19,38,0.9) !important;
+    }
+    .navbar-brand{
+        top:-10px;
+        
+    }
+    .heroImg{
+        display:none;
+    }
+    
+    .botRowLeftCol{
+          margin-right:15px;
+        margin-bottom:20px;
+         margin-right:10px;
+    }
+    
+    .botRowMidCol{
+        margin-bottom:20px;
+        margin-left:8px;
+        margin-right:16px;
+        
+    }
+    
+    .midRow{
+        min-height:400px;
+        background-image:url() !important;
+        background-repeat:no-repeat;
+        background-color:rgba(1,19,38,0.75) !important;
+    }
+    
+    .midRowMidTextCol > .card > .card-body > h4{
+        color:white !important;
+    }
+    
+        
+    .midRowRightTextCol > .card > .card-body > .card-title{
+        color:white !important;
+
+
+    }
+    .midRowMidTextCol{
+        margin-top:-80px;
+        margin-bottom:-10px;
+        
+    }
+    .topRowRightCol{
+        top:-80px;
+        padding-bottom:10px;
+    }
+ 
+}
+
+@font-face {
+    font-family: 'Geizer';
+    src: url('../fonts/GeizerRegular.woff2') format('woff2'),
+        url('../fonts/GeizerRegular.woff') format('woff'),
+        url('../fonts/GeizerRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-image:url("../img/705236-free-cool-fantasy-backgrounds-2560x1600.jpg");
+    color:rgb(0,0,0);
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.navbar{
+    background-color:rgba(1,19,38,0.75);
+    font-family:'Open Sans', sans-serif;
+    min-height:80px;
+    border-bottom:3px solid black;
+}
+
+.mainContainer{
+    margin: 0px 0px 0px 0px;
+}
+
+a{
+    color:#FF7518;
+}
+
+a:hover{
+    color:orange;
+}
+
+.navbar-brand{
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    vertical-align: middle;
+    font-family:'Geizer';
+    font-size:3em;
+}
+
+.modal{
+    font-family:'Geizer';
+}
+
+.modal-content{
+    background-image:url("../img/705236-free-cool-fantasy-backgrounds-2560x1600.jpg");
+    color:rgb(0,0,0);
+    background-size:cover;
+    background-attachment:fixed;
+    margin-top:90px;
+    padding-top:20px;
+}
+
+
+/* ===========================================================
+ Main rows & cols style begin */
+
+/* Top rows & cols */
+.topRow{
+    min-height:450px;
+    padding:20px;
+}
+
+.topRowLeftCol{
+    padding:0px;
+    margin-top:90px;
+    
+}
+
+.topRowMidCol{
+    margin-top:90px;
+}
+
+.topRowRightCol{
+    background-color:rgba(0,0,0,0.43);
+    margin-top:90px;
+    padding-top:20px;
+}
+
+.topRowRightCol > h4{
+    color:white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;    
+}
+
+.topRowRightCol button .login{
+    outline: none;
+}
+
+.topRowRightCol .login:hover{
+    background-color:gray;
+}
+
+
+/* Mid rows & cols */
+.midRow{
+    min-height:400px;
+    background-color:rgba(99,97,97,0.63);
+    background-image:url("../img/david-edwards-kenden-001 - Copy.jpg");
+    background-size:auto;
+    background-position:left;
+    color:rgb(255,255,255);
+    padding-top:20px;
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+}
+
+.midRowImageCol{
+    padding:0px;
+    padding-right:7px;
+    padding-left:15px;
+    margin-bottom:20px;
+}
+
+.midRowMidTextCol{
+    padding:0px;
+    padding-left:7px;
+    margin-bottom:20px;
+    border-width: 0px;
+    
+}
+
+
+.midRowRightTextCol{
+    padding:0px 0px 0px 15px;
+    
+}
+
+
+
+/* Bot rows & cols */
+.botRow{
+    min-height:300px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.botRowLeftCol{
+    padding:0px;
+    padding-right:7px;
+    padding-left:15px;
+}
+
+.botRowMidCol{
+    padding:0px;
+    padding-left:7px;
+}
+
+.botRowRightCol{
+    padding:0px 15px 0px 15px;
+}
+
+
+/* Footer */
+.footer{
+   min-height:110px;
+    color:#ffffff;
+    background-color:#011326;
+    border-top:3px solid black;
+    
+   
+}
+
+.footerLeftCol{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.footerMidCol{
+    margin-top:10px;
+}
+
+.footerRightCol{
+    margin-top:10px;
+}
+
+
+/* Main rows & cols style end =========================================================== */
+
+
+
+
+
+
+
+
+
+/* ===========================================================
+  Mid column style begin */
+
+
+.midRowImageCol > .card{
+    border: 0;
+    min-height:100%;
+    margin-bottom:20px;
+    background-color:rgba(255,255,255,0);
+}
+
+.midRowImageCol > .card > .card-body{
+    padding:0px;
+    min-height:100%;
+}
+
+
+
+.midRowMidTextCol > .card{
+    border: 0;
+    min-height:100%;
+    background-color:rgba(255,255,255,0);
+}
+
+.midRowMidTextCol > .card > .card-body{
+    
+}
+
+.midRowMidTextCol > .card > .card-body > h4{
+    color:rgb(255, 117, 24) !important;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'Geizer' !important; 
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+     
+}
+
+.midRowRightTextCol > .card{
+    min-height:300px;
+    padding:0px 15px 0px 0px;
+    background-color:rgba(255,255,255,0);
+    margin:0px;
+    border: 0;
+}
+
+
+.midRowRightTextCol > .card > .card-body{
+    
+}
+
+.midRowRightTextCol > .card > .card-body > .card-title{
+    color:rgb(255, 117, 24) !important;
+    text-transform: uppercase;
+    font-family: 'Geizer' !important; 
+    font-size: 2em;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+    
+
+}
+
+.midRowRightTextCol > .card > .card-body > h6{
+    color:white;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight:bold;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+    
+    
+}
+/* Mid column style end =========================================================== */
+
+
+
+/* ===========================================================
+Navbar style begin */
+
+.linx {
+    color: #808080 !important;
+    list-style-type: none;
+    text-align: right;
+    overflow: hidden;
+    
+}
+
+.linx li a{
+    display: inline-block;
+    color: #FF7518 !important;
+    text-transform:uppercase;
+}
+
+.linx li a:hover{
+    text-shadow:0px 0px 3px #FF7518;
+}
+
+/* Navbar style end =========================================================== */
+
+
+
+/* ===========================================================
+Bottom columns style begin */
+
+.botRowLeftCol > .card{
+    border:0px;   
+}
+
+
+.botRowLeftCol > .card > .card-body{
+    padding:0px;
+    background:#011326;
+    color:white;
+}
+
+.botRowLeftCol > .card > .card-body > .card-title{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left:10px;
+    margin-top:5px;
+    
+}
+
+.botRowLeftCol > .card > .card-body > .card-title > small{
+    text-transform: uppercase;
+    font-size: 0.55em;
+    
+}
+
+.botRowMidCol > .card{
+    border:0px;
+}
+
+.botRowMidCol > .card > .card-body{
+    padding:0px;
+    background:#011326;
+    color:white;
+}
+
+
+.botRowRightCol > .card{
+    border:0px;
+}
+
+.botRowRightCol > .card > .card-body{
+    background:#011326;
+    color:white;
+}
+
+.botRowRightCol > .card > .card-body{
+    
+}
+
+/* Bottom columns style end 
+=========================================================== */
+
+
+/* ===========================================================
+Footer columns style begin */
+
+.footerLeftCol h1{
+    font-family:'Geizer';
+}
+
+
+/* Footer columns style end 
+=========================================================== */
+
+
+/************************** PAGES ***************************/
+
+
+/* ===========================================================
+Profile page style begin */
+
+
+.profile-container{
+    margin-top:80px;
+    margin-bottom:20px;
+}
+
+
+.profile-container .botRowLeftCol{
+    margin-top:20px;
+}
+.profile-container .botRowLeftCol h5{
+    font-family:'Geizer';
+    font-size:1.8rem !important;
+    letter-spacing:3px;
+    color:rgb(255, 117, 24) !important;
+}
+
+.profile-container ul{
+    list-style:none;
+    margin-left:15px;
+}
+
+.profile-container .botRowLeftCol li.empty{
+    margin-top:1em !important;
+    
+}
+
+.profile-container .botRowLeftCol li.subtext{
+    text-transform:uppercase;
+    font-size:20px;
+    letter-spacing:3px;
+    margin-left:-5px;
+}
+
+.profile-container .botRowLeftCol li{
+    margin-left:5px;
+}
+
+.profile-container .botRowRightCol .card{
+    margin-top:20px;
+}
+
+
+.profile-container .characters_list .character{
+    background-image: linear-gradient(
+      rgba(15, 0, 0, 0.45), 
+      rgba(95, 0, 0, 0.45)
+    ), url("../img/fantasyheroes.jpg");
+    color:rgb(44,0,0);
+    background-size:cover;
+    outline:none;
+    margin:10px;
+}
+
+
+.profile-container .characters_list .character .card-header{
+    color:white;
+    font-family:'Geizer';
+    font-size:1.6rem;
+    letter-spacing:3px;
+}
+
+.profile-container .characters_list .character .card-header .level_badge{
+    font-size:1.3rem;
+}
+
+.profile-container .characters_list .character .card-header h5{
+    font-size:1rem;
+    letter-spacing:1px;
+}
+
+.profile-container .characters_list .character .card-body p.card-text{
+    color:white;
+    margin-top:-15px;
+}
+
+/* Profile page style end 
+=========================================================== */
+
+
+
