@@ -47,7 +47,7 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <div class="row profile-container">
+        <div class="row profile-container profile-settings">
             <div class="col-md-3 botRowLeftCol">
                 <div class="card">
                     
@@ -96,79 +96,63 @@
                 </div>
                 
                 
-                 <div class="card characters_list">
+                 <div class="card" >
                     <div class="card-body">
-                        <h4 class="card-title">Characters</h4>
-                        <h6 class="text-muted card-subtitle mb-2">These details are only visible to you. However, the list of your characters is publicly visible.</h6>
-                        <div class="d-flex justify-content-start flex-wrap">
+                        <h4 class="card-title">Profile and account settings - email address</h4>
                        
-                            <div class="character card border-dark mb-3" style="max-width: 18rem;">
-                          <div class="card-header">Throk, 
-                              <span class="level_badge">lv 20</span>
-                              <h5 class="card-title">Orc, Shaman</h5>
-                        </div>
-                          <div class="card-body">
-                          <div class = "row">
-                                <div class = "col-sm-6">
-                                    <p class="card-text">
+                        <div class="form-container">
+                                <form class="form" style="font-family:'Geizer'">
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                             <div class="input-group-text"><i class="fa fa-user" style="margin-right:23px"></i>Email address</div>
+                                        </div>
+                                        <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="What is your new email, adventurer?" name="email_change_email">
+                                    </div>
 
-                                        STR: 18 (+4)
-                                        <br>   
-                                        DEX: 12 (+1)
-                                        <br>
-                                        CON: 11 (+0)
-                                        <br>
-                                        WIS: 14 (+2)
-                                        <br>
-                                        INT: 19 (+5)
-                                        <br>
-                                        CHA: 16 (+3)
-                                        <br>
-                                    </p>
-                                </div>
-                                <div class = "col-sm-6">
-                                    <p class="card-text">
-                                        Guild: Karnaca<br>
-                                        
-                                        <br>
-                                        Guild rank: Leader
-                                        
-                                        <br><br>
-                                        Gold: 14, 847
-
-                                    
-                                    </p>
-                              
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-
-                            
-
-                            
-                            
-                        </div>
-                        
-                    </div>
-                </div>
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-lock" style="margin-right:12px"></i>Verify password</div>
+                                         </div>
+                                        <input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Tell us your password, so we can check if it is truly you!" name = "email_change_pwd">
+                                    </div>
+                                <button type="submit" class="btn btn-warning mb-2 float-left" style="letter-spacing:2px;">Save changes</button> 
+                            </form>    
+                        </div>    
+                    </div>   
+                </div> 
                 
-                <div class="card guild_details">
+                <div class="card" >
                     <div class="card-body">
-                        <h4 class="card-title">Guild details: Karnaca</h4>
-                        <h6 class="text-muted card-subtitle mb-2">As a guild Leader, you have access to more private details, marked with a * (asterisk). The ones without a mark are visible to all guild members.</h6>
-                        
-                        <p>
-                            Guild Level: 10 (Max)
-                            <br>
-                            Guild members: 12
-                            <br>
-                            
-                        </p>
-                        
-                    </div>
+                        <h4 class="card-title">Profile and account settings - password change</h4>
+                       
+                        <div class="form-container">
+                                <form class="form" style="font-family:'Geizer'">
+                                     <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-lock" style="margin-right:29px"></i>Current password</div>
+                                         </div>
+                                        <input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Your current password, adventurer!" name = "pwd_change_curr">
+                                    </div>
+
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-lock" style="margin-right:53px"></i>New password</div>
+                                         </div>
+                                        <input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="What is the new password?" name = "pwd_change_new">
+                                    </div>
+                                    
+                                    
+                                      <div class="input-group mb-2 mr-sm-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fa fa-lock" style="margin-right:12px"></i>Repeat new password</div>
+                                         </div>
+                                        <input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Tell us the new password again!" name = "pwd_change_new_repeat">
+                                    </div>
+                                <button type="submit" class="btn btn-warning mb-2 float-left" style="letter-spacing:2px;">Save changes</button> 
+                            </form>    
+                        </div>    
+                    </div>   
                 </div>
-                
             </div>
         </div>
         

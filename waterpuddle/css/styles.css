@@ -243,6 +243,7 @@ a:hover{
     color:#ffffff;
     background-color:#011326;
     border-top:3px solid black;
+    margin-top:100px;
     
    
 }
@@ -522,6 +523,16 @@ Profile page style begin */
     color:white;
     margin-top:-15px;
 }
+
+.profile-settings{
+    margin-bottom:200px !important;  
+}
+
+.profile-settings .form-container{
+    max-width:800px;
+    
+}
+
 
 /* Profile page style end 
 =========================================================== */
