@@ -1,0 +1,26 @@
+div{
+    margin:0px;
+    padding:0px;
+}
+
+nav.navbar.navbar-default{
+    margin-bottom:0px;
+}
+
+div.row.bpcms_footer{
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+div.bpcms_news_box{
+    margin-bottom:35px;
+}
+
+div.blankspace{
+    height:10px;
+}
+
+#smallNews{
+    overflow:hidden;
+    height:2.8em;
+}
